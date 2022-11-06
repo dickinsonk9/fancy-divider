@@ -1,0 +1,20 @@
+/* Internal Editor Styling */
+.genesis-custom-blocks-editor__ssr .divider{
+    margin-bottom: -38px;
+}
+
+/* Front End Styling */
+.divider-body{
+    width: 100vw;
+    margin-left: calc(-100vw/2 + 100%/2);
+    margin-right: calc(-100vw/2 + 100%/2);
+} 
+
+.divider{
+    position: relative;
+    width: 100vw;
+    height: 5vh;
+    margin-bottom: -12px; /* Safari Fix*/
+    min-height: 100px;
+    max-height: 150px;
+}
